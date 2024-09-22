@@ -11,8 +11,12 @@
             "id": "f5abc7b8779fa4a9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "+/Nota de entrada para teste git.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "+/Nota de entrada para teste git.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "+/Nota de entrada para teste git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "+/Nota de entrada para teste git.md"
+              }
             }
           }
         ],
@@ -167,6 +175,7 @@
   },
   "active": "f5abc7b8779fa4a9",
   "lastOpenFiles": [
+    "+/Nota de entrada para teste git.md",
     "4. Arquivos",
     "3. Recursos",
     "2. Áreas",
