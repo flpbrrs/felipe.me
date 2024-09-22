@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "e254a3983551eae1",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ba1681379fb02cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5abc7b8779fa4a9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2a2caad79566ec79",
+    "type": "split",
+    "children": [
+      {
+        "id": "f4e6cadd7f163fcc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "44518807e6096fc0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "70b97715818d839a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "76d531f7d1f9cd2c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1e06a44913aaf277",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee163a90e77ade6a",
+        "type": "tabs",
+        "dimension": 47.42857142857142,
+        "children": [
+          {
+            "id": "60d2888db92c2faf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d01b2ac5eeff2475",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1db964dd79cb6a97",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b4dc03c2873cb827",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "e370aed1b5639a00",
+        "type": "tabs",
+        "dimension": 52.57142857142856,
+        "children": [
+          {
+            "id": "f3ebfc031dd45164",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b30e012f48563788",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-kanban:Criar um novo quadro": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "f5abc7b8779fa4a9",
+  "lastOpenFiles": [
+    "4. Arquivos",
+    "3. Recursos",
+    "2. Áreas",
+    "1. Projetos",
+    "+",
+    "Welcome.md"
+  ]
+}
