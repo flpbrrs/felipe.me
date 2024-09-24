@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Nota de entrada para teste git.md",
-                "mode": "source",
+                "file": "4. Arquivos/Emojis lib..md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -78,7 +78,7 @@
       {
         "id": "ee163a90e77ade6a",
         "type": "tabs",
-        "dimension": 47.42857142857142,
+        "dimension": 54.748062015503876,
         "children": [
           {
             "id": "60d2888db92c2faf",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Nota de entrada para teste git.md",
+                "file": "4. Arquivos/Emojis lib..md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/Nota de entrada para teste git.md",
+                "file": "4. Arquivos/Emojis lib..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Nota de entrada para teste git.md"
+                "file": "4. Arquivos/Emojis lib..md"
               }
             }
           }
@@ -136,7 +136,7 @@
       {
         "id": "e370aed1b5639a00",
         "type": "tabs",
-        "dimension": 52.57142857142856,
+        "dimension": 45.251937984496124,
         "children": [
           {
             "id": "f3ebfc031dd45164",
@@ -173,14 +173,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f5abc7b8779fa4a9",
+  "active": "b30e012f48563788",
   "lastOpenFiles": [
+    "1. Projetos/Next/Referências/Usando APP.md",
+    "4. Arquivos/Emojis lib..md",
+    "2024-09-23.md",
+    "1. Projetos/Alura/SQL Server 22/Referências/Trabalhando com bancos de dados SQL Server.md",
+    "1. Projetos/Next/Referências",
+    "+/Ideas.md",
+    "1. Projetos/Alura/SQL Server 22/Referências",
+    "1. Projetos/Alura/SQL Server 22",
+    "1. Projetos/Alura",
+    "4. Arquivos/templates/TIMEBOXING-TEMPLATE.md",
+    "4. Arquivos/templates",
+    "1. Projetos/Next",
     "+/Nota de entrada para teste git.md",
     "4. Arquivos",
     "3. Recursos",
     "2. Áreas",
     "1. Projetos",
-    "+",
     "Welcome.md"
   ]
 }
