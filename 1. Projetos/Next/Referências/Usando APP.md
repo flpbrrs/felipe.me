@@ -20,9 +20,9 @@ Os `latouts` são hierarquizáveis, ou seja, a aplicação é compostas por `lay
  Sabemos que o Next trabalha com uma hierarquia de pastas que refletem nas rotas de nossa aplicação.
 
 ```
-(interno)
-	∟ landing
-		page.tsx
+🗀 (interno)
+	∟ 🗀 landing
+		∟ 🗋 page.tsx
 ```
  	
  Resulta na rota: `host/interno/landing`
@@ -32,3 +32,6 @@ Os `latouts` são hierarquizáveis, ou seja, a aplicação é compostas por `lay
  Sendo assim, o nome da pasta não aparece mais na URL.
 
 Além disso, o arquivo `page` no raiz representa a raiz da aplicação, contudo ela não é obrigatória estar ali. Podemos mover esse arquivo para dentro de um parte da nossa hierarquia de pastas, onde assumirá o papel de root, basta que não esteja dentro de um pasta que represente uma nova parte da rota.
+
+## Reconhecendo a rota onde estou
+

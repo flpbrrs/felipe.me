@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4ba1681379fb02cd",
+        "id": "9eee5b6cd300b409",
         "type": "tabs",
         "children": [
           {
-            "id": "f5abc7b8779fa4a9",
+            "id": "86ef8dd288a56fa5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. Arquivos/Emojis lib..md",
-                "mode": "preview",
+                "file": "1. Projetos/Next/Referências/Usando APP.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#css",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4. Arquivos/Emojis lib..md",
+                "file": "1. Projetos/Next/Referências/Usando APP.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4. Arquivos/Emojis lib..md",
+                "file": "1. Projetos/Next/Referências/Usando APP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,12 +126,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4. Arquivos/Emojis lib..md"
+                "file": "1. Projetos/Next/Referências/Usando APP.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "e370aed1b5639a00",
@@ -173,12 +173,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b30e012f48563788",
+  "active": "44518807e6096fc0",
   "lastOpenFiles": [
+    "4. Arquivos/Sem barra de rolagem com tailwind.md",
+    "1. Projetos/Alura/dotNET/Iniciando um projeto em .NET.md",
+    "1. Projetos/Sem título.md",
+    "1. Projetos/Alura/SQL Server 22/Trabalhando com bancos de dados SQL Server.md",
     "1. Projetos/Next/Referências/Usando APP.md",
+    "1. Projetos/Alura/dotNET/Referências",
+    "1. Projetos/Alura/dotNET",
     "4. Arquivos/Emojis lib..md",
     "2024-09-23.md",
-    "1. Projetos/Alura/SQL Server 22/Referências/Trabalhando com bancos de dados SQL Server.md",
     "1. Projetos/Next/Referências",
     "+/Ideas.md",
     "1. Projetos/Alura/SQL Server 22/Referências",
@@ -190,8 +195,6 @@
     "+/Nota de entrada para teste git.md",
     "4. Arquivos",
     "3. Recursos",
-    "2. Áreas",
-    "1. Projetos",
     "Welcome.md"
   ]
 }
