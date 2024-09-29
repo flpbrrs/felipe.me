@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projetos/Next/Referências/Usando APP.md",
+                "file": "1. Projetos/Alura/dotNET/Iniciando um projeto em .NET.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Projetos/Next/Referências/Usando APP.md",
+                "file": "1. Projetos/Alura/dotNET/Iniciando um projeto em .NET.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projetos/Next/Referências/Usando APP.md",
+                "file": "1. Projetos/Alura/dotNET/Iniciando um projeto em .NET.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projetos/Next/Referências/Usando APP.md"
+                "file": "1. Projetos/Alura/dotNET/Iniciando um projeto em .NET.md"
               }
             }
           }
@@ -159,7 +159,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 237.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,13 +173,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "44518807e6096fc0",
+  "active": "86ef8dd288a56fa5",
   "lastOpenFiles": [
-    "4. Arquivos/Sem barra de rolagem com tailwind.md",
+    "1. Projetos/Alura/dotNET/Referências/Usando Auto Mapper.md",
     "1. Projetos/Alura/dotNET/Iniciando um projeto em .NET.md",
-    "1. Projetos/Sem título.md",
+    "1. Projetos/Alura/dotNET/Referências/Conectando .NET ao SQL Server.md",
     "1. Projetos/Alura/SQL Server 22/Trabalhando com bancos de dados SQL Server.md",
     "1. Projetos/Next/Referências/Usando APP.md",
+    "4. Arquivos/Sem barra de rolagem com tailwind.md",
+    "1. Projetos/Sem título.md",
     "1. Projetos/Alura/dotNET/Referências",
     "1. Projetos/Alura/dotNET",
     "4. Arquivos/Emojis lib..md",
