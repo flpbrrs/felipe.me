@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "d02087be14c2a30f",
+        "id": "92bb890001ecd0a0",
         "type": "tabs",
         "children": [
           {
-            "id": "2fcccd08f3d27c76",
+            "id": "81a8aba0747d6284",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "4. Arquivos/Biome settings JSON.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#css",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "4. Arquivos/Biome settings JSON.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "4. Arquivos/Biome settings JSON.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "4. Arquivos/Biome settings JSON.md"
+              }
             }
           }
         ],
@@ -165,8 +173,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2fcccd08f3d27c76",
+  "active": "81a8aba0747d6284",
   "lastOpenFiles": [
+    "4. Arquivos/Biome settings JSON.md",
+    "1. Projetos/Alura/dotNET/Referências/Adicionando detalhes no Swagger.md",
+    "1. Projetos/Alura/dotNET/Iniciando um projeto em .NET.md",
+    "1. Projetos/Alura/dotNET/Referências/Atualizando um recurso com Entity Framework e AutoMapper.md",
     "1. Projetos/TCC/Estudo da documentação - Protocolo de enfermagem - Saúde da mulher.md",
     "4. Arquivos/SAÚDE DA MULHER.pdf",
     "4. Arquivos/Sem barra de rolagem com tailwind.md",
@@ -174,7 +186,6 @@
     "4. Arquivos/tabela de gestacao de risco.pdf",
     "1. Projetos/Alura/SQL Server 22/Trabalhando com bancos de dados SQL Server.md",
     "1. Projetos/TCC",
-    "1. Projetos/Alura/dotNET/Iniciando um projeto em .NET.md",
     "1. Projetos/Alura/dotNET/Referências/Usando Auto Mapper.md",
     "1. Projetos/Alura/dotNET/Referências/Conectando .NET ao SQL Server.md",
     "1. Projetos/Sem título.md",

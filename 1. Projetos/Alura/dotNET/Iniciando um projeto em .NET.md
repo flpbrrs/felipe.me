@@ -4,7 +4,7 @@ tags:
   - setup
 data de criação: 2024-09-24
 ---
-	 ## Criando um projeto .NET
+## Criando um projeto .NET
 
 Através da IDE do Visual Studio podemos usar modelos que permitem uma criação facilitada de uma API .NET, nesse caso usamos o modelo: *API Web do ASP.NET Core.*
 
@@ -139,5 +139,153 @@ public IActionResult RegistraFilme([FromBody] Filme filme)
         filme
      );
 }
+```
+
+## Usando AutoMapper e DTOS
+
+Não é um boa prática ficar transitando nossos objetos de negócio dentro da nossa aplicação, por isso uma boa prática é o uso de DTOs (*Data Transfer Objects*). Esses objetos serão usados para a única função de transitar dados, e dessa forma, não precisam ter um complexidade muito grande como os nossos objetos de valor. Deixando assim o uso direto dos nossas classes para os artefatos adequados.
+
+Nesse contexto, surge a necessidade de mapear os nossos DTOs para as nossas classes de negócio. E, por isso, surge a necessidade do uso do AutoMapper, biblioteca para o mapeamento de entidades.
+
+Para instala-lo podemos seguir o caminho padrão: `ferramentas > Gerenciador de pacotes do Nuget > Console do gerenciador de pacotes`
+
+E para fazer uso seguimos os seguintes passos:
+
+- Adicionar a referência do AutoMapper no `program.cs`:
+```C#
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+```
+
+- Criar o nosso arquivo de DTO `/DTOS`:
+```C#
+using System.ComponentModel.DataAnnotations;
+
+namespace FilmesApi.DTOs
+{
+    public class CreateFilmeDTO
+    {
+        [Required(ErrorMessage = "O campo titulo é obrigatório")]
+        public string titulo { get; set; }
+        [Required(ErrorMessage = "O campo gênero é obrigatório")]
+        [StringLength(50, ErrorMessage = "O tamando máximo é de 50 caracteres")]
+        public string genero { get; set; }
+        [Required(ErrorMessage = "O campo duração é obrigatório")]
+        [Range(0, 200, ErrorMessage = "O tamanho deve ter entre 0 e 200")]
+        public int duracao { get; set; }
+    }
+}
+```
+
+- Criar o profile de mapeamento do DTO `/Profiles`:
+```C#
+using AutoMapper;
+using FilmesApi.DTOs;
+using FilmesApi.Models;
+
+namespace FilmesApi.Profiles;
+
+public class FilmeProfile : Profile
+{
+    public FilmeProfile() {
+	    /* Sempre que for criado um DTO que deve ser mapeado para filme outra linha de mapper deve ser adicionada */
+        CreateMap<CreateFilmeDTO, Filme>();
+    }
+}
+```
+
+- Atualizar a nossa Controller para usar o Mapper e o DTO:
+```C#
+using AutoMapper;
+using FilmesApi.Data;
+using FilmesApi.DTOs;
+using FilmesApi.Models;
+using Microsoft.AspNetCore.Mvc;
+
+namespace FilmesApi.Controllers
+{
+    [ApiController]
+    [Route("[controller]")]
+    public class FilmesController : ControllerBase
+    {
+        private FilmesContext _context;
+	    
+	    /* Adicionando o Mapper por injeção de dependência */
+        private IMapper _mapper;
+
+        public FilmesController(FilmesContext context, IMapper mapper)
+        {
+            _context = context;
+            _mapper = mapper;
+        }
+
+        [HttpPost]
+        public IActionResult RegistraFilme([FromBody] CreateFilmeDTO filmeDTO)
+        {
+	        /* Fazendo uso do Mpper */
+            Filme filme = _mapper.Map<Filme>(filmeDTO);
+
+            _context.filmes.Add(filme);
+            _context.SaveChanges();
+
+            return CreatedAtAction(
+                nameof(BuscarFilmePorId),
+                new { filme.id },
+                filme
+             );
+        }
+    }
+}
+```
+
+## Usando o verbo Patch com o Newton JSON
+
+Para fazer a criação de uma rota de patch podemos usar o Newton JSON, podemos instala-lo via: `ferramentas > Gerenciador de pacotes do Nuget > Console do gerenciador de pacotes`, instalando a versão da Microsoft.
+
+- Devemos explicita-lo no `program.cs`:
+```C#
+builder.Services.AddControllers().AddNewtonsoftJson();
+```
+
+- Usa-lo na rota Patch:
+```C#
+[HttpPatch("{id}")]
+public IActionResult atualizaParcialFilmePorId(
+	int id,
+	JsonPatchDocument<UpdateFilmeDTO> patch)
+{
+    var filmeBuscado = 
+	    _context.filmes.FirstOrDefault((filme) => filme.id == id);
+
+    if (filmeBuscado == null) return NotFound();
+
+	/* 
+		Essa conversão é de objeto para tipo,
+		diferente da objeto para objeto usada anteriormente
+
+		PS: Deve ser adicionado no profile a volta da conversão
+	*/
+    var filmeParaAtualizar = _mapper.Map<UpdateFilmeDTO>(filmeBuscado);
+
+    patch.ApplyTo(filmeParaAtualizar, ModelState);
+
+    if(!TryValidateModel(filmeParaAtualizar)) return ValidationProblem();
+
+    _mapper.Map(filmeParaAtualizar, filmeBuscado);
+    _context.SaveChanges();
+
+    return NoContent();
+}
+```
+
+- O body da requisição muda um pouco nesse caso:
+```JSON
+[
+    { 
+        "op": "replace",
+        "path": "/duracao", // Nome do campo a ser atualizado
+        "value": 120
+    },
+    // Aqui podem vir outros objetos relativos a outros campos...
+]
 ```
 
