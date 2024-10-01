@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "9eee5b6cd300b409",
+        "id": "d02087be14c2a30f",
         "type": "tabs",
         "children": [
           {
-            "id": "86ef8dd288a56fa5",
+            "id": "2fcccd08f3d27c76",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Projetos/Alura/dotNET/Iniciando um projeto em .NET.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Projetos/Alura/dotNET/Iniciando um projeto em .NET.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projetos/Alura/dotNET/Iniciando um projeto em .NET.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1. Projetos/Alura/dotNET/Iniciando um projeto em .NET.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -159,7 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 230.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,14 +165,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "86ef8dd288a56fa5",
+  "active": "2fcccd08f3d27c76",
   "lastOpenFiles": [
-    "1. Projetos/Alura/dotNET/Referências/Usando Auto Mapper.md",
-    "1. Projetos/Alura/dotNET/Iniciando um projeto em .NET.md",
-    "1. Projetos/Alura/dotNET/Referências/Conectando .NET ao SQL Server.md",
-    "1. Projetos/Alura/SQL Server 22/Trabalhando com bancos de dados SQL Server.md",
-    "1. Projetos/Next/Referências/Usando APP.md",
+    "1. Projetos/TCC/Estudo da documentação - Protocolo de enfermagem - Saúde da mulher.md",
+    "4. Arquivos/SAÚDE DA MULHER.pdf",
     "4. Arquivos/Sem barra de rolagem com tailwind.md",
+    "1. Projetos/Next/Referências/Usando APP.md",
+    "4. Arquivos/tabela de gestacao de risco.pdf",
+    "1. Projetos/Alura/SQL Server 22/Trabalhando com bancos de dados SQL Server.md",
+    "1. Projetos/TCC",
+    "1. Projetos/Alura/dotNET/Iniciando um projeto em .NET.md",
+    "1. Projetos/Alura/dotNET/Referências/Usando Auto Mapper.md",
+    "1. Projetos/Alura/dotNET/Referências/Conectando .NET ao SQL Server.md",
     "1. Projetos/Sem título.md",
     "1. Projetos/Alura/dotNET/Referências",
     "1. Projetos/Alura/dotNET",
@@ -193,10 +189,7 @@
     "1. Projetos/Alura",
     "4. Arquivos/templates/TIMEBOXING-TEMPLATE.md",
     "4. Arquivos/templates",
-    "1. Projetos/Next",
     "+/Nota de entrada para teste git.md",
-    "4. Arquivos",
-    "3. Recursos",
     "Welcome.md"
   ]
 }

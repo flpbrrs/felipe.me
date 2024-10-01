@@ -22,15 +22,22 @@ CREATE TABLE [TABELA COM ESPAÇO] (/* ... */);
 
 - Alterando uma coluna de uma tabela:
 ```SQL
-// Column redefinition é como se estivessemos declarando de novo a coluna
+-- Column redefinition é como se estivessemos declarando de novo a coluna
 ALTER TABLE <table_name> ALTER COLUMN <column_redefinitions>;
 
-// Adicionando restrições:
+-- Adicionando restrições:
 ALTER TABLE <table_name> ADD CONSTRAINT <constranit>
 
-// Exemplos:
+-- Exemplos:
 ALTER TABLE [clientes] ALTER COLUMN [cpf] [char] (11) NOT NULL;
 
 ALTER TABLE [clientes] ADD CONSTRAINT pk_cliente PRIMARY KEY CLUSTERED ([cpf]);
 ```
 
+- Podemos usar funções para trabalhar melhor com datas:
+```SQL
+-- Extraindo o ano, pode ser replicadp para mês e dia
+SELECT * FROM clientes WHERE YEAR(data_nascimento) > '1999';
+```
+
+- Visualizando o banco de forma gráfica: Podemos criar um diagrama indo na pasta `Diagrama do banco de dados` dentro no SSMS, botão direito e criar diagrama.
