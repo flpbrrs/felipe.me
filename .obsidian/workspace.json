@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "92bb890001ecd0a0",
+        "id": "34a41260f74aef26",
         "type": "tabs",
         "children": [
           {
-            "id": "81a8aba0747d6284",
+            "id": "eddf1fb3f320b6fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. Arquivos/Biome settings JSON.md",
+                "file": "1. Projetos/Arquitetura/Modelagem de domínio.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4. Arquivos/Biome settings JSON.md",
+                "file": "1. Projetos/Arquitetura/Modelagem de domínio.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4. Arquivos/Biome settings JSON.md",
+                "file": "1. Projetos/Arquitetura/Modelagem de domínio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4. Arquivos/Biome settings JSON.md"
+                "file": "1. Projetos/Arquitetura/Modelagem de domínio.md"
               }
             }
           }
@@ -159,7 +159,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 336.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,11 +173,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "81a8aba0747d6284",
+  "active": "b30e012f48563788",
   "lastOpenFiles": [
+    "+/Perguntas do projeto Observatório/Perguntas.md",
+    "+/Perguntas do projeto Observatório/Referências/Tailwind vs Styled Components.md",
+    "1. Projetos/Arquitetura/Modelagem de domínio.md",
+    "+/Perguntas do projeto Observatório/Referências",
+    "+/Perguntas do projeto Observatório",
+    "+/Sem título.md",
+    "1. Projetos/Alura/dotNET/Iniciando um projeto em .NET.md",
+    "1. Projetos/Arquitetura/Referências",
+    "1. Projetos/Arquitetura",
     "4. Arquivos/Biome settings JSON.md",
     "1. Projetos/Alura/dotNET/Referências/Adicionando detalhes no Swagger.md",
-    "1. Projetos/Alura/dotNET/Iniciando um projeto em .NET.md",
     "1. Projetos/Alura/dotNET/Referências/Atualizando um recurso com Entity Framework e AutoMapper.md",
     "1. Projetos/TCC/Estudo da documentação - Protocolo de enfermagem - Saúde da mulher.md",
     "4. Arquivos/SAÚDE DA MULHER.pdf",
@@ -195,11 +203,7 @@
     "2024-09-23.md",
     "1. Projetos/Next/Referências",
     "+/Ideas.md",
-    "1. Projetos/Alura/SQL Server 22/Referências",
-    "1. Projetos/Alura/SQL Server 22",
-    "1. Projetos/Alura",
     "4. Arquivos/templates/TIMEBOXING-TEMPLATE.md",
-    "4. Arquivos/templates",
     "+/Nota de entrada para teste git.md",
     "Welcome.md"
   ]
