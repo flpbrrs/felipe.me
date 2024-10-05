@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "34a41260f74aef26",
+        "id": "52cfe3b7a4a5a31a",
         "type": "tabs",
         "children": [
           {
-            "id": "eddf1fb3f320b6fe",
+            "id": "25b655bac7042881",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projetos/Arquitetura/Modelagem de domínio.md",
+                "file": "1. Projetos/Alura/QA/Testes e cenários de testes.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Projetos/Arquitetura/Modelagem de domínio.md",
+                "file": "1. Projetos/Alura/QA/Testes e cenários de testes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projetos/Arquitetura/Modelagem de domínio.md",
+                "file": "1. Projetos/Alura/QA/Testes e cenários de testes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projetos/Arquitetura/Modelagem de domínio.md"
+                "file": "1. Projetos/Alura/QA/Testes e cenários de testes.md"
               }
             }
           }
@@ -173,11 +173,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b30e012f48563788",
+  "active": "25b655bac7042881",
   "lastOpenFiles": [
+    "4. Arquivos/images/Pasted image 20241005090713.png",
+    "4. Arquivos/images/Pasted image 20241005090802.png",
+    "1. Projetos/Alura/QA/Testes e cenários de testes.md",
+    "4. Arquivos/images/Pasted image 20241005090518.png",
+    "4. Arquivos/images/Pasted image 20241005090338.png",
+    "1. Projetos/Alura/QA/Referências/Plano de testes (Modelo).md",
+    "1. Projetos/Alura/QA/Testes frontend/Testes no frontend.md",
+    "1. Projetos/Alura/QA",
+    "4. Arquivos/images",
+    "4. Arquivos/images/Pasted image 20241005082602.png",
+    "1. Projetos/Arquitetura/Modelagem de domínio.md",
+    "1. Projetos/Alura/QA/Referências",
+    "1. Projetos/Alura/QA/Testes frontend",
     "+/Perguntas do projeto Observatório/Perguntas.md",
     "+/Perguntas do projeto Observatório/Referências/Tailwind vs Styled Components.md",
-    "1. Projetos/Arquitetura/Modelagem de domínio.md",
     "+/Perguntas do projeto Observatório/Referências",
     "+/Perguntas do projeto Observatório",
     "+/Sem título.md",
@@ -193,15 +205,11 @@
     "1. Projetos/Next/Referências/Usando APP.md",
     "4. Arquivos/tabela de gestacao de risco.pdf",
     "1. Projetos/Alura/SQL Server 22/Trabalhando com bancos de dados SQL Server.md",
-    "1. Projetos/TCC",
     "1. Projetos/Alura/dotNET/Referências/Usando Auto Mapper.md",
     "1. Projetos/Alura/dotNET/Referências/Conectando .NET ao SQL Server.md",
     "1. Projetos/Sem título.md",
-    "1. Projetos/Alura/dotNET/Referências",
-    "1. Projetos/Alura/dotNET",
     "4. Arquivos/Emojis lib..md",
     "2024-09-23.md",
-    "1. Projetos/Next/Referências",
     "+/Ideas.md",
     "4. Arquivos/templates/TIMEBOXING-TEMPLATE.md",
     "+/Nota de entrada para teste git.md",
