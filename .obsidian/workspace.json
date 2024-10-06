@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projetos/Alura/QA/Testes e cenários de testes.md",
+                "file": "1. Projetos/TCC/Referências/DUM, DPP e ECO.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Projetos/Alura/QA/Testes e cenários de testes.md",
+                "file": "1. Projetos/TCC/Referências/DUM, DPP e ECO.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projetos/Alura/QA/Testes e cenários de testes.md",
+                "file": "1. Projetos/TCC/Referências/DUM, DPP e ECO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projetos/Alura/QA/Testes e cenários de testes.md"
+                "file": "1. Projetos/TCC/Referências/DUM, DPP e ECO.md"
               }
             }
           }
@@ -175,9 +175,12 @@
   },
   "active": "25b655bac7042881",
   "lastOpenFiles": [
+    "1. Projetos/TCC/Estudo da documentação - Protocolo de enfermagem - Saúde da mulher.md",
+    "1. Projetos/TCC/Referências/DUM, DPP e ECO.md",
+    "1. Projetos/TCC/Referências",
+    "1. Projetos/Alura/QA/Testes e cenários de testes.md",
     "4. Arquivos/images/Pasted image 20241005090713.png",
     "4. Arquivos/images/Pasted image 20241005090802.png",
-    "1. Projetos/Alura/QA/Testes e cenários de testes.md",
     "4. Arquivos/images/Pasted image 20241005090518.png",
     "4. Arquivos/images/Pasted image 20241005090338.png",
     "1. Projetos/Alura/QA/Referências/Plano de testes (Modelo).md",
@@ -199,11 +202,9 @@
     "4. Arquivos/Biome settings JSON.md",
     "1. Projetos/Alura/dotNET/Referências/Adicionando detalhes no Swagger.md",
     "1. Projetos/Alura/dotNET/Referências/Atualizando um recurso com Entity Framework e AutoMapper.md",
-    "1. Projetos/TCC/Estudo da documentação - Protocolo de enfermagem - Saúde da mulher.md",
     "4. Arquivos/SAÚDE DA MULHER.pdf",
     "4. Arquivos/Sem barra de rolagem com tailwind.md",
     "1. Projetos/Next/Referências/Usando APP.md",
-    "4. Arquivos/tabela de gestacao de risco.pdf",
     "1. Projetos/Alura/SQL Server 22/Trabalhando com bancos de dados SQL Server.md",
     "1. Projetos/Alura/dotNET/Referências/Usando Auto Mapper.md",
     "1. Projetos/Alura/dotNET/Referências/Conectando .NET ao SQL Server.md",
