@@ -35,5 +35,12 @@ O ideal é que dentro de nossas entidades estejam os objetos de valores ao invé
 
 >[!tip] Não pensar de forma muito genérica. É mais proveitoso lidar diretamente com o caso que se está trabalhando, evitando muitas generalizações.
 
+# Serviços de domínio
 
+Devemos dar preferência a colocar nossas regras de negócios nos objetos de valor e nas entidades, contudo algumas regras extrapolam esse escopo, as vezes por envolver mais de uma entidade ou uma lista de entidades, e precisamos de um novo conceito para esses casos.
 
+É ai que surgem os serviços de domínio, que são:
+
+> Operações sem estado que realizam uma tarefa especifica de domínio. Frequentemente a melhor indicação de que você deve criar um **Serviço** no modelo de domínio é quando a operação que você precisa executar parece despropositada como um método em um **Agregado** ou um **Objeto de valor.**
+
+Não confundir ==Serviços de domínio== com ==Serviços de aplicação== (Casos de uso). Não queremos hospedar regras de negócios em um serviço de aplicação. Além disso, um serviço de domínio não deve ser associado a lógicas pesadas, rudimentar e com capacidades remotas.
