@@ -9,7 +9,7 @@ data de criação: 2024-10-08
 **Objetivo**: Conhecer todos os membros interessados no projeto.
 **Quem precisa estar**: Todos as partes interessadas pelo projeto.
 - **Quem pode ser**:
-	- Usuários finais (não sei quem é);
+	- Usuários finais;
 	- Analistas de dados;
 	- Gerentes do projeto;
 **Demandas**:

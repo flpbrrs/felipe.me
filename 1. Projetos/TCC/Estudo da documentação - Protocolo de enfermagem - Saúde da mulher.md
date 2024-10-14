@@ -5,8 +5,7 @@ data de criação: 2024-09-30
 ---
 # Avaliação de risco no pré-natal
 
-Sempre que uma mulher em idade fértil referir atraso menstrual igual ou superior a uma
-semana o enfermeiro deverá questionar a possibilidade de gestação.
+Sempre que uma mulher em idade fértil referir atraso menstrual igual ou superior a uma semana o enfermeiro deverá questionar a possibilidade de gestação.
 
 Ainda que a mulher se diga usuária de métodos anticoncepcionais, deve ser considerada a possibilidade de falha e realizado teste. Onde, se positivo as medidas iniciais de pré-natal deverão ser encaminhadas a começar pela **classificação de risco.**
 
